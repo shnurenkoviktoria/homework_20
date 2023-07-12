@@ -89,13 +89,13 @@ WSGI_APPLICATION = "homework19.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dcoq86d5gha1ag',
-        'USER': 'cmgsohxvfopvnx',
-        'PASSWORD': '3ee2ee0a92cc0fe5552cb926e46e1bbc3e8dca6ec36cd1b92ef62a0c71a3cdd1',
-        'HOST': 'ec2-3-208-74-199.compute-1.amazonaws.com',
-        'PORT': '5432',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "dcoq86d5gha1ag",
+        "USER": "cmgsohxvfopvnx",
+        "PASSWORD": "3ee2ee0a92cc0fe5552cb926e46e1bbc3e8dca6ec36cd1b92ef62a0c71a3cdd1",
+        "HOST": "ec2-3-208-74-199.compute-1.amazonaws.com",
+        "PORT": "5432",
     }
 }
 
